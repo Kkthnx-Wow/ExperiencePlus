@@ -1,4 +1,4 @@
-# ExperiencePlus Addon
+# ExperiencePlus
 ![xp_icon](https://github.com/Kkthnx-Wow/ExperiencePlus/assets/40672673/5bc147c0-b264-4726-985f-6265432a8799)
 
 ## Overview
@@ -41,7 +41,3 @@ To use this addon effectively, install it in your World of Warcraft addons folde
 - **Bar Text Format**: Choose from different formats for the text displayed on the bars.
 
 ![image](https://github.com/Kkthnx-Wow/ExperiencePlus/assets/40672673/712e230d-c90e-4947-811c-fa584d064a63)
-
-## License
-This addon is licensed under the GNU General Public License v3.0.
-
