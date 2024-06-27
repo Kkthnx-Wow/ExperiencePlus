@@ -40,4 +40,9 @@ To use this addon effectively, install it in your World of Warcraft addons folde
 - **Bar Height**: Adjust the height of all progress bars.
 - **Bar Text Format**: Choose from different formats for the text displayed on the bars.
 
-![image](https://github.com/Kkthnx-Wow/ExperiencePlus/assets/40672673/712e230d-c90e-4947-811c-fa584d064a63)
+![image](https://github.com/Kkthnx-Wow/ExperiencePlus/assets/40672673/510053cc-f697-4337-8118-fb91de4333e6)
+![image](https://github.com/Kkthnx-Wow/ExperiencePlus/assets/40672673/0f1b8ec8-d50e-4645-858d-213dc7c5d053)
+![image](https://github.com/Kkthnx-Wow/ExperiencePlus/assets/40672673/d05b8e94-a515-4ab6-8f4e-d10235c48a5c)
+![image](https://github.com/Kkthnx-Wow/ExperiencePlus/assets/40672673/3b6b596a-130a-4da6-9297-47f8b1e6e81c)
+![image](https://github.com/Kkthnx-Wow/ExperiencePlus/assets/40672673/6d3df7ea-73f3-4252-b0b5-1d037693d3d3)
+
