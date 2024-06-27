@@ -257,19 +257,19 @@ function ExperiencePlus:OnExpBarEvent(event, unit)
 		self:SetStatusBarColor(colorHonor.r, colorHonor.g, colorHonor.b)
 
 		if barTextFormat == "PERCENT" then
-			barDisplayString = format("%d%% - [%s]", PercentHonor, CurrentLevel)
+			barDisplayString = format(HONOR .. ": %d%% - [%s]", PercentHonor, CurrentLevel)
 		elseif barTextFormat == "CURMAX" then
-			barDisplayString = format("%s - %s - [%s]", ExperiencePlus.ShortValue(CurrentHonor), ExperiencePlus.ShortValue(MaxHonor), CurrentLevel)
+			barDisplayString = format(HONOR .. ": %s - %s - [%s]", ExperiencePlus.ShortValue(CurrentHonor), ExperiencePlus.ShortValue(MaxHonor), CurrentLevel)
 		elseif barTextFormat == "CURPERC" then
-			barDisplayString = format("%s - %d%% - [%s]", ExperiencePlus.ShortValue(CurrentHonor), PercentHonor, CurrentLevel)
+			barDisplayString = format(HONOR .. ": %s - %d%% - [%s]", ExperiencePlus.ShortValue(CurrentHonor), PercentHonor, CurrentLevel)
 		elseif barTextFormat == "CUR" then
-			barDisplayString = format("%s - [%s]", ExperiencePlus.ShortValue(CurrentHonor), CurrentLevel)
+			barDisplayString = format(HONOR .. ": %s - [%s]", ExperiencePlus.ShortValue(CurrentHonor), CurrentLevel)
 		elseif barTextFormat == "REM" then
-			barDisplayString = format("%s - [%s]", ExperiencePlus.ShortValue(RemainingHonor), CurrentLevel)
+			barDisplayString = format(HONOR .. ": %s - [%s]", ExperiencePlus.ShortValue(RemainingHonor), CurrentLevel)
 		elseif barTextFormat == "CURREM" then
-			barDisplayString = format("%s - %s - [%s]", ExperiencePlus.ShortValue(CurrentHonor), ExperiencePlus.ShortValue(RemainingHonor), CurrentLevel)
+			barDisplayString = format(HONOR .. ": %s - %s - [%s]", ExperiencePlus.ShortValue(CurrentHonor), ExperiencePlus.ShortValue(RemainingHonor), CurrentLevel)
 		elseif barTextFormat == "CURPERCREM" then
-			barDisplayString = format("%s - %d%% (%s) - [%s]", ExperiencePlus.ShortValue(CurrentHonor), CurrentHonor, ExperiencePlus.ShortValue(RemainingHonor), CurrentLevel)
+			barDisplayString = format(HONOR .. ": %s - %d%% (%s) - [%s]", ExperiencePlus.ShortValue(CurrentHonor), CurrentHonor, ExperiencePlus.ShortValue(RemainingHonor), CurrentLevel)
 		end
 
 		self:Show()
